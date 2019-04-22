@@ -1,0 +1,55 @@
+ElevatorSimulator: Creating ElevatorSimulator with 10 elevators and elevator.DefaultElevatorScheduler@74a14482 scheduler.
+ElevatorSimulator: Beginning elevator simulation
+
+Floor: Call request from floor 1 to floor 20
+DefaultElevatorScheduler: Requesting transfer from floor 1 to floor 20
+Elevator: Elevator 1 on floor 1 performing call request from floor 1 to floor 20
+
+Floor: Call request from floor 1 to floor 15
+DefaultElevatorScheduler: Requesting transfer from floor 1 to floor 15
+Elevator: Elevator 2 on floor 1 performing call request from floor 1 to floor 15
+
+Floor: Call request from floor 1 to floor 88
+DefaultElevatorScheduler: Requesting transfer from floor 1 to floor 88
+Elevator: Elevator 3 on floor 1 performing call request from floor 1 to floor 88
+
+Floor: Call request from floor 1 to floor 10
+DefaultElevatorScheduler: Requesting transfer from floor 1 to floor 10
+Elevator: Elevator 4 on floor 1 performing call request from floor 1 to floor 10
+
+Floor: Call request from floor 1 to floor 100
+DefaultElevatorScheduler: Requesting transfer from floor 1 to floor 100
+Elevator: Elevator 5 on floor 1 performing call request from floor 1 to floor 100
+
+Floor: Call request from floor 1 to floor 77
+DefaultElevatorScheduler: Requesting transfer from floor 1 to floor 77
+Elevator: Elevator 6 on floor 1 performing call request from floor 1 to floor 77
+
+Floor: Call request from floor 100 to floor 50
+DefaultElevatorScheduler: Requesting transfer from floor 100 to floor 50
+Elevator: Elevator 5 on floor 100 performing call request from floor 100 to floor 50
+
+Floor: Call request from floor 88 to floor 14
+DefaultElevatorScheduler: Requesting transfer from floor 88 to floor 14
+Elevator: Elevator 3 on floor 88 performing call request from floor 88 to floor 14
+
+Floor: Call request from floor 15 to floor 45
+DefaultElevatorScheduler: Requesting transfer from floor 15 to floor 45
+Elevator: Elevator 2 on floor 15 performing call request from floor 15 to floor 45
+
+Floor: Call request from floor 20 to floor 22
+DefaultElevatorScheduler: Requesting transfer from floor 20 to floor 22
+Elevator: Elevator 1 on floor 20 performing call request from floor 20 to floor 22
+
+Floor: Call request from floor 50 to floor 50
+ElevatorSimulator: elevator.ElevatorCallRequestSameFloorException: Already on destination floor 50
+
+Floor: Call request from floor 50 to floor 101
+DefaultElevatorScheduler: Requesting transfer from floor 50 to floor 101
+ElevatorSimulator: java.lang.IllegalArgumentException: Destination floor 101 is not within building: 1 - 100.
+
+Floor: Call request from floor 50 to floor 0
+DefaultElevatorScheduler: Requesting transfer from floor 50 to floor 0
+ElevatorSimulator: java.lang.IllegalArgumentException: Destination floor 0 is not within building: 1 - 100.
+
+Process finished with exit code 0
